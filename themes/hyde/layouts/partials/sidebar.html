@@ -3,7 +3,7 @@
     <div class="sidebar-about">
       <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
       <p class="lead">
-      {{ with .Site.Params.description }} {{.}} {{ else }}PhD Student @EPFL, Lausanne, Switzerland.{{end}}
+      {{ with .Site.Params.description }} {{.}} {{ else }}PhD Student @EPFL Lausanne, Switzerland.{{end}}
       </p>
     </div>
 
@@ -14,6 +14,6 @@
       {{- end }}
     </ul>
 
-    <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2018"}}. All rights reversed. {{end}}</p>
+    <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}}. All rights reversed. {{end}}</p>
   </div>
 </div>
