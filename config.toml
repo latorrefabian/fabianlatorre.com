@@ -1,4 +1,34 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Fabian Latorre"
-theme = "hyde"
+title = "FL"
+theme = "coder"
+
+[params] # theme parameters
+    author = "Fabian Latorre" # author's name
+    info = "PhD Student @EPFL Lausanne, Switzerland." # author's job title or info
+    description = "personal website" # site description
+    keywords = "science,math,phd" # site keywords
+
+    # wether you want to hide copyright and credits in the footer
+    hideCredits = false
+    hideCopyright = false
+
+# Social links
+[[params.social]]
+    name = "Github"
+    weight = 1
+    url = "https://github.com/latorrefabian/"
+[[params.social]]
+    name = "Twitter"
+    weight = 2
+    url = "https://twitter.com/fabianlat/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "Research"
+    weight = 2
+    url = "/articles/"
