@@ -1,34 +1,55 @@
-baseURL = "/"
+baseurl = "/"
 languageCode = "en-us"
-title = "FL"
-theme = "coder"
+theme = "hello-friend-ng"
 
-[params] # theme parameters
-    author = "Fabian Latorre" # author's name
-    info = "PhD Student @EPFL Lausanne, Switzerland." # author's job title or info
-    description = "personal website" # site description
-    keywords = "science,math,phd" # site keywords
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "01-02-2006"
+  dateformNumTime = "01-02-2006 15:04 -0700"
 
-    # wether you want to hide copyright and credits in the footer
-    hideCredits = false
-    hideCopyright = false
+  # Metadata mostly used in document's head
+  description = "Fabian Latorre"
+  keywords = "academia, mathematics, machine learning, phd, epfl"
+  images = [""]
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "articles"
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+[languages]
+  [languages.en]
+    title = "Fabian Latorre"
+    homeSubtitle = "PhD Student @EPFL Lausanne, Switzerland."
+    keywords = ""
+    copyright = "All rights reversed"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "fabian_latorre/"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
 
 # Social links
 [[params.social]]
-    name = "Github"
-    weight = 1
+    name = "github"
     url = "https://github.com/latorrefabian/"
 [[params.social]]
-    name = "Twitter"
-    weight = 2
+    name = "twitter"
     url = "https://twitter.com/fabianlat/"
 
-# Menu links
-[[menu.main]]
-    name = "Blog"
-    weight = 1
-    url  = "/posts/"
-[[menu.main]]
-    name = "Research"
-    weight = 2
-    url = "/articles/"
+
+# And you can even create generic menu
+[menu]
+#   [[menu.main]]
+#     identifier = "about"
+#     name       = "About"
+#     url        = "/about"
+  [[menu.main]]
+    identifier = "research"
+    name       = "Research"
+    url        = "/publications"
