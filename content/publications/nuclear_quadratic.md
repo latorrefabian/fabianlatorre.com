@@ -3,9 +3,10 @@ title: "The Effect of the Intrinsic Dimension on the Generalization of Quadratic
 authors: "Fabian Latorre, Leello Dadi, Paul Rolland and Volkan Cevher"
 venue: "NeurIPS 2021"
 date: 2021-10-01
-pdf: ""
+pdf: "https://openreview.net/forum?id=_hKvtsqItc"
 draft: false
 ---
+
 It has been recently observed that neural networks, unlike kernel
 methods, enjoy a reduced sample complexity when the distribution is isotropic.
 We find that this sensitivity to the data distribution is not exclusive to
