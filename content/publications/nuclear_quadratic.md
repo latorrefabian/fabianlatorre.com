@@ -3,7 +3,7 @@ title: "The Effect of the Intrinsic Dimension on the Generalization of Quadratic
 authors: "Fabian Latorre, Leello Dadi, Paul Rolland and Volkan Cevher"
 venue: "NeurIPS 2021"
 date: 2021-10-01
-pdf: "https://openreview.net/forum?id=_hKvtsqItc"
+pdf: "https://arxiv.org/abs/2007.01003"
 draft: false
 ---
 
