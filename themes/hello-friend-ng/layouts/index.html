@@ -1,6 +1,11 @@
 {{ define "main" }}
     <main aria-role="main">
         <div>
+            {{ if and (isset .Site.Params "avatarurl") (not (isset .Site.Params "gravatar")) }}
+                {{ with .Site.Params.avatarURL }}
+                    <div class="avatar"><img src="{{ . | relURL }}" alt="avatar"></div>
+                {{ end }}
+            {{ end }}
             <h1>{{ .Site.Title }}</h1>
 
             {{- with .Site.Params.homeSubtitle }}

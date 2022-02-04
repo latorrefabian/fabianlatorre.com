@@ -303,3 +303,17 @@ hr {
 	width: auto;
 	z-index: 100000;
 }
+
+.avatar img {
+  width: 15rem;
+  height: auto;
+  border-radius: 50%;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media only screen and (max-width: 768px) {
+    width: 10rem;
+  }
+}

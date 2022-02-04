@@ -12,6 +12,7 @@ theme = "hello-friend-ng"
   description = "Fabian Latorre"
   keywords = "academia, mathematics, machine learning, phd, epfl"
   images = [""]
+  avatarurl = "images/avatar.jpg"
 
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "articles"
